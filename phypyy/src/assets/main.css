@@ -1,0 +1,48 @@
+@import "../../build/css/variables.css";
+
+/* ========== BASE ========== */
+
+* {
+    font-family: var(--pyy-font-families-roboto-mono);
+}
+
+h1 {
+    color: var(--pyy-text-primary);
+    font-size: var(--pyy-font-size-8);
+    line-height: var(--pyy-line-heights-6);
+    font-weight: var( --pyy-font-weights-roboto-mono-3);
+}
+
+p {
+    color: var(--pyy-text-secondary);
+    font-size: var(--pyy-font-size-2);
+    line-height: var(--pyy-line-heights-1);
+    font-weight: var( --pyy-font-weights-roboto-mono-2);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    margin: 0 16px 0 0;
+}
+
+a {
+    color: var(--pyy-link-primary);
+    text-decoration: none;
+    font-size: var(--pyy-font-size-2);
+    line-height: var(--pyy-line-heights-1);
+    font-weight: var( --pyy-font-weights-roboto-mono-2);
+}
+
+a:hover {
+    color: var(--pyy-link-primary-hover);
+}
+
+main {
+    padding: 24px 72px;
+}
